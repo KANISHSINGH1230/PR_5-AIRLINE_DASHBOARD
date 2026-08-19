@@ -15,7 +15,11 @@
 <p align = "center">
  <image src = "https://github.com/KANISHSINGH1230/PR_5AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20TRENDS%20%26%20FORECAST.png 
   "widh  = "100%" alt = "TREND & FORECAST">
-  
+
+<p align = "center">
+ <image src = "  https://github.com/KANISHSINGH1230/PR_5-AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20DRILL%20THROUGH.png"widh  = "100%" alt = "DRILL THROUGH">
+
+
 ## 📊 Project Overview
   
 This project is an interactive **Power BI dashboard** built to analyze airline flight operations, cancellations, delays, on-time performance, routes, airports, and flight-volume trends from **2019–2023**.
