@@ -13,7 +13,7 @@
  <image src = "https://github.com/KANISHSINGH1230/PR_5-AIRLINE_DASHBOARD/blob/main/Image/ROUTE%20%26%20AIRPOT%20MAP.png" widh  = "100%" alt = "ROUTE & AIRPORT">
 
 <p align = "center">
- <image src = "  https://github.com/KANISHSINGH1230/PR_5AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20DRILL%20THROUGH.png" widh  = "100%" alt = "DRILL THROUGH">
+ <image src = https://github.com/KANISHSINGH1230/PR_5AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20DRILL%20THROUGH.png widh  = "100%" alt = "DRILL THROUGH">
 
 <p align = "center">
  <image src = https://github.com/KANISHSINGH1230/PR_5-AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20TRENDS%20%26%20FORECAST.png
