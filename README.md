@@ -215,6 +215,11 @@ All connected visuals update dynamically based on the selected filters.
 
 ## 📸 Dashboard Preview
 
+<p align = "center">
+ <image src = "(https://github.com/KANISHSINGH1230/PR_5-AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20OVERVIEW.png) " widh =
+   "100%" alt = "Sales Dashboard">
+   
+
 ### Airline Performance Overview
 
 ![Airline Overview](AIRLINE%20OVERVIEW.png)
