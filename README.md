@@ -1,225 +1,215 @@
 # ✈️ Airline Performance & Cancellation Analysis | Power BI
 
-An interactive **Power BI dashboard** designed to analyze airline operations, flight volume, cancellations, delays, routes, airport activity, and on-time performance from **2019–2023**.
-
-The project transforms airline flight data into actionable insights through interactive dashboards, KPIs, drill-through analysis, geographical visualization, trend analysis, and flight-volume forecasting.
-
----
-
 ## 📊 Project Overview
 
-This dashboard provides a comprehensive view of airline operational performance and helps answer key business questions such as:
+This project is an interactive **Power BI dashboard** built to analyze airline flight operations, cancellations, delays, on-time performance, routes, airports, and flight-volume trends from **2019–2023**.
 
-* How many flights were operated?
-* What percentage of flights were cancelled?
-* Which airlines have the highest flight volume?
-* Which airlines experience the highest departure delays?
-* What are the major reasons for flight cancellations?
-* How has on-time performance changed from 2019 to 2023?
-* Which airports have the highest destination flight volume?
-* How does cancellation rate vary across airlines and years?
-* What are the monthly flight-volume trends?
-* What does the future flight-volume forecast look like?
+The dashboard transforms airline data into meaningful business insights using **Power BI, DAX, Power Query, interactive filters, drill-through analysis, maps, and forecasting**.
 
 ---
 
-## 🖥️ Dashboard Pages
+## 🎯 Objectives
+
+* Analyze total flight volume and airline performance
+* Track flight cancellations and cancellation rates
+* Identify major cancellation causes
+* Analyze departure and arrival delays
+* Measure yearly and monthly on-time performance
+* Compare airlines based on flight volume
+* Identify top destination airports
+* Analyze airport and route performance
+* Identify monthly and yearly flight trends
+* Forecast future flight volume
+
+---
+
+## 📌 Key KPIs
+
+| KPI                    |        Result |
+| ---------------------- | ------------: |
+| ✈️ Total Flights       |        **3M** |
+| ❌ Total Cancelled      |       **79K** |
+| 📉 Cancellation Rate   |     **2.64%** |
+| ⏱️ On-Time Rate        |    **82.32%** |
+| 🛫 Avg Departure Delay | **10.10 min** |
+| 🛬 Avg Arrival Delay   |  **4.26 min** |
+
+---
+
+## 📑 Dashboard Pages
 
 ### 1. Airline Performance & Cancellation Overview
 
-Provides an executive-level summary of airline operations.
+Provides an executive summary of overall airline performance.
 
-**Key KPIs:**
+**Includes:**
 
-* Total Flights: **3M**
-* Total Cancelled Flights: **79K**
-* Cancellation Rate: **2.64%**
-* On-Time Rate: **82.32%**
-
-**Visualizations include:**
-
+* Total Flights
+* Total Cancelled Flights
+* Cancellation %
+* On-Time Rate
 * Flight Cancellation by Cause
 * Airline Comparison
 * Flight Outcome Distribution
-* Airline Performance Overview
 * Overall On-Time Rate vs 80% Target
 
 ---
 
 ### 2. Airline Performance & Delay Analysis
 
-Focuses on delays and cancellation performance across airlines.
+Focuses on airline delays and cancellation performance.
 
-**Key Metrics:**
-
-* Average Departure Delay: **10.10 minutes**
-* Average Arrival Delay: **4.26 minutes**
-* Cancellation Rate: **2.64%**
-* On-Time Rate: **82.32%**
-
-**Analysis includes:**
+**Includes:**
 
 * Top 10 Airlines by Average Departure Delay
 * Top 10 Airlines by Cancellation Count
-* Airline Cancellation Rate Heatmap by Year
-* Departure & Arrival Delay Analysis
+* Airline Cancellation Rate Heatmap
+* Average Departure Delay
+* Average Arrival Delay
+* On-Time Performance
 
 ---
 
 ### 3. Airline Trends & Flight Volume Forecast
 
-Analyzes monthly and yearly flight trends from 2019–2023 and provides a future flight-volume forecast.
+Analyzes historical flight trends and future flight volume.
 
-**Visualizations include:**
+**Includes:**
 
 * Monthly Average Departure Delay by Year
 * Monthly Flight Volume by Year
-* Total Monthly Flight Volume Trend
+* Flight Volume Trend
 * 6-Month Flight Volume Forecast
-
-This page helps identify seasonality, operational changes, and future flight-volume patterns.
 
 ---
 
-### 4. Airline Route & Airport Analysis
+### 4. Route & Airport Analysis
 
-Provides geographical and airport-level analysis.
+Provides geographic and airport-level analysis.
 
-**Analysis includes:**
+**Includes:**
 
 * Total Flights by Airline
 * US Departure Airport Flight Volume
 * Average Airport Delay
 * US State Cancellation Rate
-* Geographic Distribution of Flight Operations
-
-Interactive maps are used to visualize flight activity and cancellation patterns across locations.
+* Geographic Flight Analysis
+* Airport Performance
 
 ---
 
-### 5. Airline Drill-Through Analysis
+### 5. Airline Drill-Through
 
-Provides detailed analysis for a selected airline.
+Allows users to select an airline and explore detailed performance.
 
-Users can select an airline and investigate:
+**Includes:**
 
-* Total Flights
-* Total Cancelled Flights
+* Airline-specific flight volume
+* Cancellation count
 * Cancellation %
-* Monthly Cancellation Trends
-* Cancellation Causes
+* Monthly cancellation trends
+* Cancellation causes
 * On-Time Rate by Year
-* Detailed Flight-Level Records
-
-This enables users to move from high-level KPIs to detailed operational data.
+* Detailed flight records
 
 ---
 
-### 6. Route & Airport / Tooltip Analysis
+### 6. Destination & Tooltip Analysis
 
-Additional interactive views provide contextual information about destinations, airports, and airline performance.
+Provides additional contextual analysis through interactive visuals and tooltips.
 
-The dashboard includes:
+**Top 5 Destination Airports:**
 
-* Top 5 Destination Airports
-* Airport Flight Volume
-* Airline/Route details
-* Interactive tooltip analysis
-* Dynamic filtering
+1. ATL — **154K**
+2. DFW — **130K**
+3. ORD — **123K**
+4. DEN — **120K**
+5. CLT — **95K**
 
 ---
 
-## 🎯 Key Insights
+## 🔍 Key Insights
 
-Some important insights identified from the dashboard include:
+### ✈️ Overall Operations
 
-### ✈️ Overall Performance
-
-The dataset contains approximately **3 million flights**, with around **79K cancellations**, resulting in an overall cancellation rate of **2.64%**.
+The dataset contains approximately **3 million flights** with around **79K cancelled flights**, resulting in an overall cancellation rate of **2.64%**.
 
 ### ⏱️ On-Time Performance
 
-The overall on-time rate is approximately **82.32%**, which is above the dashboard's **80% target**.
+The overall on-time rate is **82.32%**, exceeding the dashboard's **80% target**.
 
 ### ❌ Cancellation Causes
 
-The major cancellation causes include:
+The major cancellation categories analyzed include:
 
 * Weather
 * Security
 * National Air System
-* Airline/Carrier-related causes
+* Airline/Carrier-related cancellations
 
-Weather represents the largest cancellation category in the dashboard.
+**Weather** is the largest cancellation category in the analysis.
 
-### 🏆 Flight Volume
+### 🏆 Airline Flight Volume
 
-**Southwest Airlines (WN)** has the highest flight volume among the airlines analyzed, with approximately **576K flights**.
+**Southwest Airlines (WN)** has the highest flight volume in the dashboard, with approximately **576K flights**.
 
-### 🛫 Destination Airports
+### 🛫 Top Destination Airports
 
-The top destination airports by flight volume include:
-
-1. **ATL — 154K**
-2. **DFW — 130K**
-3. **ORD — 123K**
-4. **DEN — 120K**
-5. **CLT — 95K**
-
-### ⏰ Departure Delays
-
-The dashboard identifies airlines with higher average departure delays, helping highlight areas requiring operational improvement.
+| Rank | Airport | Flights |
+| ---- | ------- | ------: |
+| 1    | ATL     |    154K |
+| 2    | DFW     |    130K |
+| 3    | ORD     |    123K |
+| 4    | DEN     |    120K |
+| 5    | CLT     |     95K |
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 * **Power BI**
-* **Power Query**
 * **DAX**
-* **Data Modeling**
+* **Power Query**
 * **Microsoft Bing/Azure Maps**
+* **Data Modeling**
 * **Time Intelligence**
 * **Forecasting**
-* **Interactive Slicers**
-* **Drill-Through**
 * **Data Visualization**
 
 ---
 
-## 📐 Key Power BI Concepts Used
-
-This project demonstrates practical use of:
+## 📐 Power BI Skills Demonstrated
 
 * DAX Measures
 * Calculated Columns
 * CALCULATE
 * DIVIDE
-* AVERAGE
 * COUNTROWS
+* AVERAGE
 * Filter Context
-* Time Intelligence
-* Date Tables
+* Date Table
 * Relationships
 * KPI Cards
-* Conditional Formatting
-* Drill-Through Pages
 * Slicers
+* Drill-Through
 * Tooltips
+* Conditional Formatting
+* Heatmaps
+* Geographic Maps
 * Forecasting
-* Geographic Mapping
+* Interactive Dashboards
 
 ---
 
 ## 🎛️ Interactive Filters
 
-The dashboard contains interactive filters for:
+Users can dynamically filter the dashboard using:
 
 * **Airline Code**
 * **Delay Status**
 * **Flight Year**
 
-These filters dynamically update the dashboard visuals and allow users to perform focused analysis.
+All connected visuals update dynamically based on the selected filters.
 
 ---
 
@@ -235,29 +225,28 @@ These filters dynamically update the dashboard visuals and allow users to perfor
 
 ### Airline Trends & Forecast
 
-![Airline Trends & Forecast](AIRLINE%20TRENDS%20%26%20FORECAST.png)
+![Airline Trends](AIRLINE%20TRENDS%20%26%20FORECAST.png)
 
 ### Route & Airport Analysis
 
-![Route & Airport Analysis](ROUTE%20%26%20AIRPOT%20MAP.png)
+![Route & Airport](ROUTE%20%26%20AIRPOT%20MAP.png)
 
 ### Airline Drill-Through
 
-![Airline Drill Through](AIRLINE%20DRILL%20THROUGH.png)
+![Drill Through](AIRLINE%20DRILL%20THROUGH.png)
 
 ### Tooltip Analysis
 
-![Airline Tooltip](AIRLINE%20TOOLTIP.png)
+![Tooltip](AIRLINE%20TOOLTIP.png)
 
 ---
 
-## 📁 Project Structure
+## 📂 Repository Structure
 
 ```text
 Airline-Performance-PowerBI/
 │
 ├── README.md
-│
 ├── Dataset/
 │   └── airline_data.csv
 │
@@ -275,28 +264,28 @@ Airline-Performance-PowerBI/
 
 ---
 
-## 🚀 Business Value
+## 💡 Business Value
 
 This dashboard can help airline management and operations teams:
 
-* Monitor flight performance
+* Monitor operational performance
 * Identify cancellation patterns
-* Track airline-level operational efficiency
-* Analyze airport performance
-* Understand delay trends
-* Compare yearly performance
-* Identify high-volume routes and airports
-* Monitor on-time performance against targets
-* Support operational decision-making
+* Track delays
+* Compare airline performance
+* Analyze airport activity
+* Monitor on-time performance
+* Identify high-volume airports and routes
+* Understand seasonal flight patterns
 * Forecast future flight demand
+* Support data-driven decision-making
 
 ---
 
-## 📌 Conclusion
+## 🚀 Conclusion
 
-The **Airline Performance & Cancellation Analysis Dashboard** converts millions of flight records into an interactive business intelligence solution.
+The **Airline Performance & Cancellation Analysis Dashboard** provides a complete view of airline operations from **2019–2023**.
 
-By combining **Power BI, DAX, Power Query, interactive visualization, geographic analysis, drill-through functionality, and forecasting**, the dashboard provides a complete view of airline operational performance from **2019 to 2023**.
+By combining **Power BI, DAX, Power Query, interactive visualization, geographic analysis, drill-through, and forecasting**, this project demonstrates how raw airline data can be transformed into a professional and actionable business intelligence solution.
 
 ---
 
@@ -304,8 +293,9 @@ By combining **Power BI, DAX, Power Query, interactive visualization, geographic
 
 **Kanish Singh**
 
-**Skills:** Power BI | DAX | Power Query | SQL | Excel | Data Analytics | Data Visualization
+**Skills:**
+`Power BI` • `DAX` • `Power Query` • `SQL` • `Excel` • `Data Analytics` • `Data Visualization`
 
 ---
 
-⭐ **If you find this project useful, consider giving this repository a star!**
+⭐ **If you found this project useful, don't forget to star ⭐ the repository!**
