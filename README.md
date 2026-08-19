@@ -20,6 +20,8 @@
   "widh  = "100%" alt = "TREND & FORECAST">
 
 
+<p align = "center">
+ <image src = " https://github.com/KANISHSINGH1230/PR_5-AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20TOOLTIP.png" widh  = "100%" alt = "TOOLTIP">
 
 ## 📊 Project Overview
   
