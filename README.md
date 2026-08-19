@@ -9,8 +9,10 @@
  <image src = "https://github.com/KANISHSINGH1230/PR_5-AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20PERFORMANCE.png " widh =
    "100%" alt = "AIRLINE PERFORMANCE">
 
+<p align = "center">
+ <image src = "https://github.com/KANISHSINGH1230/PR_5-AIRLINE_DASHBOARD/blob/main/Image/ROUTE%20%26%20AIRPOT%20MAP.png" widh  = "100%" alt = "ROUTE & AIRPORT">
 
-https://github.com/KANISHSINGH1230/PR_5-AIRLINE_DASHBOARD/blob/main/Image/AIRLINE%20PERFORMANCE.png
+  
 ## 📊 Project Overview
   
 This project is an interactive **Power BI dashboard** built to analyze airline flight operations, cancellations, delays, on-time performance, routes, airports, and flight-volume trends from **2019–2023**.
